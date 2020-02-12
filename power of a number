@@ -1,0 +1,6 @@
+s = int(input("enter the number"))
+p = int(input("enter the power"))
+sp = 1
+for n in range(p):
+    sp = sp*s
+print(sp)
